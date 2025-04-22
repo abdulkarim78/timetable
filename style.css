@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+    font-family: 'Quicksand' ,  sans-serif;
+    background-color: #CBDED3;
+}
+
+h1 {
+    text-align: center;
+    color: #3B6255;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 4px #CBDED3;
+}
+
+
+table {
+    color: #3B6255;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    border-collapse: collapse;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+th{
+    background-color: #8BA49A;
+}
+tr:hover td{
+    background-color: #9abdaf;
+  }
+.days{
+    background-color: #3B6255;
+    color: #CBDED3;
+}
+th, td {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.course{
+    font-weight: bold
+}
+.holiday{
+    background-color: #8BA49A;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+
+    th, td {
+      text-align: left;
+    }
+
+  }
